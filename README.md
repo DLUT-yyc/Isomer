@@ -4,7 +4,7 @@
 ## To Do List
 - [ ] Release our camera-ready paper. (revising)
 - [x] Release our codebase.
-- [ ] Release our dataset. (The dataset is a little large and is being uploaded.)
+- [x] Release our dataset.
 - [x] Release our model checkpoints.
 - [x] Release our segmentation maps.
 
@@ -59,6 +59,9 @@ python utils/val_zvos.py
 # For VSOD
 python utils/val_vsod.py
 ```
+We optimized the evaluation codes of ZVOS and VSOD tasks to enable faster evaluation results:
+![zvos_results](./docs/1.png)
+![vsod_results](./docs/2.png)
 
 ## License
 

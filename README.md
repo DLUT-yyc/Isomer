@@ -16,7 +16,7 @@ The code requires `python>=3.7`, as well as `pytorch>=1.7` and `torchvision>=0.8
 
 ## Preparation
 
-Download Pretrained Models, Datasets, Final Checkpoints and Results from [here](https://pan.baidu.com/s/1PJ8JevkmLwaoUVwcScQvCQ) (passwd: iiau).
+Download pretrained models, datasets, final checkpoints and results from [here](https://pan.baidu.com/s/1PJ8JevkmLwaoUVwcScQvCQ) (passwd: iiau).
 
 Please organize the files as follows:
 

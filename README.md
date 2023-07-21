@@ -59,7 +59,7 @@ python utils/val_zvos.py
 # For VSOD
 python utils/val_vsod.py
 ```
-We optimized the evaluation codes of ZVOS and VSOD tasks to enable faster evaluation results:
+We optimized the evaluation codes of ZVOS and VSOD tasks to enable faster evaluation:
 ![zvos_results](./docs/1.png)
 ![vsod_results](./docs/2.png)
 

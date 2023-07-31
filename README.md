@@ -1,8 +1,8 @@
 # Isomer
-[ICCV2023] Isomer: Isomerous Transformer for Zero-Shot Video Object Segmentation
+[[ICCV2023] Isomer: Isomerous Transformer for Zero-Shot Video Object Segmentation](https://github.com/DLUT-yyc/Isomer/blob/master/docs/ICCV2023_Isomer.pdf)
 
 ## To Do List
-- [ ] Release our camera-ready paper. (revising)
+- [x] Release our camera-ready paper.
 - [x] Release our codebase.
 - [x] Release our dataset.
 - [x] Release our model checkpoints.

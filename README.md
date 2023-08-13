@@ -10,18 +10,14 @@
 
 ## Introduction
 Recent leading zero-shot video object segmentation (ZVOS) works devote to integrating appearance and motion information by elaborately designing feature fusion modules and identically applying them in multiple feature stages. Our preliminary experiments show that with the strong long-range dependency modeling capacity of Transformer, simply concatenating the two modality features and feeding them to vanilla Transformers for feature fusion can distinctly benefit the performance but at a cost of heavy computation. Through further empirical analysis, we find that attention dependencies learned in Transformer in different stages exhibit completely different properties: global query-independent dependency in the low-level stages and semantic-specific dependency in the high-level stages. 
-![zvos_results](./docs/figure1.pdf)
+![zvos_results](./docs/introduction1.png)
 Motivated by the observations, we propose two Transformer variants: i) Context-Sharing Transformer (CST) that learns the global-shared contextual information within image frames with a lightweight computation. ii) Semantic Gathering-Scattering Transformer (SGST) that models the semantic correlation separately for the foreground and background and reduces the computation cost with a soft token merging mechanism. 
-![zvos_results](./docs/figure4.pdf)
+![zvos_results](./docs/introduction4.png)
 We apply CST and SGST for low-level and high-level feature fusions, respectively, formulating a level-isomerous Transformer framework for ZVOS task. 
-![zvos_results](./docs/figure3.pdf)
-Compared with the baseline that uses vanilla Transformers for multi-stage fusion, ours significantly increase the speed by 13 times and achieves new state-of-the-art ZVOS performance.
-![zvos_results](./docs/figure2.pdf)
-Results:
-![zvos_results](./docs/figure5.pdf)
-Attention Maps:
-![zvos_results](./docs/figure6.pdf)
-
+![zvos_results](./docs/introduction3.png)
+Compared with the existing ZVOS works, our method obtains significantly superior performance with real-time inference. 
+![zvos_results](./docs/introduction2.png)
+![zvos_results](./docs/introduction5.png)
 
 ## Installation
 

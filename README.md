@@ -2,11 +2,11 @@
 [[ICCV2023] Isomer: Isomerous Transformer for Zero-Shot Video Object Segmentation](https://github.com/DLUT-yyc/Isomer/blob/master/docs/ICCV2023_Isomer.pdf)
 
 ## To Do List
-- [x] Release our camera-ready paper.
-- [x] Release our codebase.
-- [x] Release our dataset.
-- [x] Release our model checkpoints.
-- [x] Release our segmentation maps.
+- [x] Release our camera-ready paper on [ArXiv](https://arxiv.org/pdf/2308.06693v1.pdf).
+- [x] Release our [codebase](https://github.com/DLUT-yyc/Isomer).
+- [x] Release our [dataset](https://huggingface.co/divenyuan/Isomer).
+- [x] Release our [model checkpoints](https://huggingface.co/divenyuan/Isomer).
+- [x] Release our [segmentation maps](https://huggingface.co/divenyuan/Isomer).
 
 ## Introduction
 Recent leading zero-shot video object segmentation (ZVOS) works devote to integrating appearance and motion information by elaborately designing feature fusion modules and identically applying them in multiple feature stages. Our preliminary experiments show that with the strong long-range dependency modeling capacity of Transformer, simply concatenating the two modality features and feeding them to vanilla Transformers for feature fusion can distinctly benefit the performance but at a cost of heavy computation. Through further empirical analysis, we find that attention dependencies learned in Transformer in different stages exhibit completely different properties: global query-independent dependency in the low-level stages and semantic-specific dependency in the high-level stages. 
@@ -25,7 +25,7 @@ The code requires `python>=3.7`, as well as `pytorch>=1.7` and `torchvision>=0.8
 
 ## Preparation
 
-Download pretrained models, datasets, final checkpoints and results from [here](https://pan.baidu.com/s/1PJ8JevkmLwaoUVwcScQvCQ) (passwd: iiau).
+Download pretrained models, datasets, final checkpoints and results from [here](https://huggingface.co/divenyuan/Isomer) (passwd: iiau).
 
 Please organize the files as follows:
 

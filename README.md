@@ -25,7 +25,7 @@ The code requires `python>=3.7`, as well as `pytorch>=1.7` and `torchvision>=0.8
 
 ## Preparation
 
-Download pretrained models, datasets, final checkpoints and results from [here](https://huggingface.co/divenyuan/Isomer) (passwd: iiau).
+Download pretrained models, datasets, final checkpoints and results from [here](https://huggingface.co/divenyuan/Isomer).
 
 Please organize the files as follows:
 
